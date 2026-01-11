@@ -1,12 +1,12 @@
-## Fine-Tuning LLaMA 3.2 Instruct for Medical QA with RAG and Evaluation
+# Fine-Tuning LLaMA 3.2 Instruct for Medical QA with RAG and Evaluation
 
-This notebook demonstrates 4 flows:
+##This notebook demonstrates 4 flows:
 
-Base Model
-QLoRA Fine-tuned Model
-RAG + Base Model
-RAG + Fine-tuned Model
-Evaluation is done using BERTScore on unseen data.
+##Base Model
+##QLoRA Fine-tuned Model
+##RAG + Base Model
+##RAG + Fine-tuned Model
+##Evaluation is done using BERTScore on unseen data.
 
 
 Compute & Environment Constraints (Important Note)
