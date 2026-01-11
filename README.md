@@ -1,22 +1,20 @@
 # Fine-Tuning LLaMA 3.2 Instruct for Medical QA with RAG and Evaluation
 
-##This notebook demonstrates 4 flows:
+## This notebook demonstrates 4 flows:
 
-## Base Model
-## QLoRA Fine-tuned Model
-## RAG + Base Model
-## RAG + Fine-tuned Model
-## Evaluation is done using BERTScore on unseen data.
+### Base Model
+### QLoRA Fine-tuned Model
+### RAG + Base Model
+### RAG + Fine-tuned Model
+### Evaluation is done using BERTScore on unseen data.
 
 
-Compute & Environment Constraints (Important Note)
-All experiments were conducted using Google Colab, which imposes strict compute limitations:
+## Compute & Environment Constraints (Important Note)
 
-GPU availability is limited to ~4 hours per session
-
-Once the GPU quota is exhausted, access may be restricted for up to 48 hours
-
-Due to these constraints, the fine-tuning strategy was intentionally conservative and small dataset (11000 rows)
+1. All experiments were conducted using Google Colab, which imposes strict compute limitations:
+2. GPU availability is limited to ~4 hours per session
+3. Once the GPU quota is exhausted, access may be restricted for up to 48 hours
+4. Due to these constraints, the fine-tuning strategy was intentionally conservative and small dataset (11000 rows)
 
 
 Flow 1 - Base Model
