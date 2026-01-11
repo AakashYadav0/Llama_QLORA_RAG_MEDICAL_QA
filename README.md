@@ -1,4 +1,4 @@
-Fine-Tuning LLaMA 3.2 Instruct for Medical QA with RAG and Evaluation
+## Fine-Tuning LLaMA 3.2 Instruct for Medical QA with RAG and Evaluation
 
 This notebook demonstrates 4 flows:
 
